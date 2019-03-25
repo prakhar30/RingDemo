@@ -15,6 +15,7 @@
 		958AA56522495C3100B5CBFE /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958AA56422495C3100B5CBFE /* ColorConstants.swift */; };
 		958AA56722495D5900B5CBFE /* BaseRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958AA56622495D5900B5CBFE /* BaseRing.swift */; };
 		958AA56922495EA900B5CBFE /* DrawHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958AA56822495EA900B5CBFE /* DrawHelpers.swift */; };
+		958AA56B224969C200B5CBFE /* DegreeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958AA56A224969C200B5CBFE /* DegreeConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		958AA56422495C3100B5CBFE /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 		958AA56622495D5900B5CBFE /* BaseRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRing.swift; sourceTree = "<group>"; };
 		958AA56822495EA900B5CBFE /* DrawHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawHelpers.swift; sourceTree = "<group>"; };
+		958AA56A224969C200B5CBFE /* DegreeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreeConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				958AA56422495C3100B5CBFE /* ColorConstants.swift */,
 				958AA56622495D5900B5CBFE /* BaseRing.swift */,
 				958AA56822495EA900B5CBFE /* DrawHelpers.swift */,
+				958AA56A224969C200B5CBFE /* DegreeConstants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				958AA56722495D5900B5CBFE /* BaseRing.swift in Sources */,
 				958AA56522495C3100B5CBFE /* ColorConstants.swift in Sources */,
 				958AA56922495EA900B5CBFE /* DrawHelpers.swift in Sources */,
+				958AA56B224969C200B5CBFE /* DegreeConstants.swift in Sources */,
 				958AA5532249595700B5CBFE /* RingDemoViewController.swift in Sources */,
 				958AA5512249595700B5CBFE /* AppDelegate.swift in Sources */,
 			);

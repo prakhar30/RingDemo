@@ -42,14 +42,14 @@ class RingDemoViewController: UIViewController {
     }
     
     func modeADraw() {
-        let arc1 = UIBezierPath(arcCenter: centerPoint, radius: radius, startAngle: DrawHelpers.degreeToRadian(degree: 271), endAngle: DrawHelpers.degreeToRadian(degree: 315), clockwise: true)
-        DrawHelpers.drawArcIn(view: circleView, with: arc1, color: unfilledRingColor)
-        
-        let arc2 = UIBezierPath(arcCenter: centerPoint, radius: radius, startAngle: DrawHelpers.degreeToRadian(degree: 317), endAngle: DrawHelpers.degreeToRadian(degree: 223), clockwise: true)
-        DrawHelpers.drawArcIn(view: circleView, with: arc2, color: greenFilledRingColor)
-        
-        let arc3 = UIBezierPath(arcCenter: centerPoint, radius: radius, startAngle: DrawHelpers.degreeToRadian(degree: 225), endAngle: DrawHelpers.degreeToRadian(degree: 269), clockwise: true)
-        DrawHelpers.drawArcIn(view: circleView, with: arc3, color: unfilledRingColor)
+        for i in 0..<3 {
+            let arc1 = UIBezierPath(arcCenter: centerPoint, radius: radius, startAngle: DrawHelpers.degreeToRadian(degree: modeADegreeArray[i*2]), endAngle: DrawHelpers.degreeToRadian(degree: modeADegreeArray[(i*2) + 1]), clockwise: true)
+            if i % 2 == 0 {
+                DrawHelpers.drawArcIn(view: circleView, with: arc1, color: unfilledRingColor)
+            } else {
+                DrawHelpers.drawArcIn(view: circleView, with: arc1, color: greenFilledRingColor)
+            }
+        }
     }
     
     func modeBDraw() {
