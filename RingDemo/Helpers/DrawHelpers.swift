@@ -22,7 +22,11 @@ class DrawHelpers {
     }
     
     static func removeTopLayers(inView: UIView) {
-        inView.layer.sublayers?.removeAll()
+        if let layers = inView.layer.sublayers {
+            for i in (1..<layers.count).reversed() {
+                layers[i].removeFromSuperlayer()
+            }
+        }
     }
     
     static func degreeToRadian(degree: Int) -> CGFloat {
