@@ -12,3 +12,6 @@ import UIKit
 let unfilledRingColor = UIColor.lightGray
 let greenFilledRingColor = UIColor(red: 162.0/255.0, green: 251.0/255.0, blue: 185.0/255.0, alpha: 1.0)
 let blueFilledRingColor = UIColor(red: 166.0/255.0, green: 253.0/255.0, blue: 252.0/255.0, alpha: 1.0)
+
+let modeAColorSequence = [unfilledRingColor, greenFilledRingColor, unfilledRingColor]
+let modeBColorSequence = [unfilledRingColor, greenFilledRingColor, blueFilledRingColor, greenFilledRingColor, blueFilledRingColor, greenFilledRingColor, unfilledRingColor]
